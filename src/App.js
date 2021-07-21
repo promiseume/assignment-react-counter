@@ -4,6 +4,7 @@ import Clock from "./component/clock"
 import Button from './component/button'
 import Color from './component/color'
 import Input from './component/input'
+import Authen from './component/authen'
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App() {
       <Button/>
       <Color/>
       <Input/>
+      <Authen/>
     </div>
   );
 }
