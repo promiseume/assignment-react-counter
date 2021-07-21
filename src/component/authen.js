@@ -18,7 +18,7 @@ export default class Authen extends Component {
       <div>
         <h1> The user is {isLoggedIn ? "currently" : "not"} logged in</h1>
         <button onClick={this.handleClick}>
-          {isLoggedIn ? "welcome" : "Please signup"}
+          {isLoggedIn ? "Logout" : "Login"}
         </button>
       </div>
     );
